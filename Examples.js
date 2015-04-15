@@ -1,3 +1,7 @@
+/*
+ * @author melissaLobo mellobomel@gmail.com
+ */
+
 function construirArray(qtdElementos){
 	this.length = qtdElementos
 }
