@@ -51,9 +51,9 @@ function atualizarDataHora(){
 	diaSemana = getDiaExtenso(dataAtual.getDay());
 	mes = getMesExtenso(dataAtual.getMonth());
 	ano = dataAtual.getYear();
-    hora = dataAtual.getHours();
-    minuto = dataAtual.getMinutes();
-    segundo = dataAtual.getSeconds();
+    	hora = dataAtual.getHours();
+    	minuto = dataAtual.getMinutes();
+    	segundo = dataAtual.getSeconds();
 
     horaImprimivel = hora + ":" + minuto + ":" + segundo;
 	mostrarDataHora(horaImprimivel, diaSemana, dia, mes, ano);
